@@ -1,5 +1,5 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const isEven = (num) => num % 2 === 0;
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const merge = [...new Set(a.concat(b))];
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const uniqueArr = (arr) => [...new Set(arr)];
+const results = await Promise.all(resultingPromises);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const result = await makeHttpRequest(url);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
