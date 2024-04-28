@@ -1,4 +1,5 @@
-console.log("0 || 1 = "+(0 || 1));
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log(1 +  -"1" + "2");
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const goToTop = () => window.scrollTo(0, 0);
