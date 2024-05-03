@@ -1,1 +1,1 @@
-const fullName = name || 'buddy';
+[foo, bar] = [bar, foo];
