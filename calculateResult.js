@@ -1,2 +1,3 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const uniqueArray = arr => [...new Set(arr)];
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+console.log( "A" - "B" + "2");
