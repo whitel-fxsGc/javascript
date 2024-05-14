@@ -1,3 +1,2 @@
-const merge = (a, b) => a.concat(b);
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const channel = getChannel(computedAppVersion);
+function myAPITS(someString: string, someNum: number) { ... };
+const isEmptyObject = obj => Object.keys(obj).length === 0;
