@@ -1,3 +1,2 @@
-console.log(1 +  "2" + "2");
-var arr2 = arr1.reverse();
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const randomBoolean = () => Math.random() >= 0.5;
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
