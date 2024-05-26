@@ -1,2 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-var DELIM_SIZE = 4;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const arrayContains = (arr, element) => arr.includes(element);
+const results = await Promise.all(resultingPromises);
