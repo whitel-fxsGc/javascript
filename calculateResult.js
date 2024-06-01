@@ -1,3 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-console.log(1 +  +"2" + "2");
+const minNumber = arr => Math.min(...arr);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
