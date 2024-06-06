@@ -1,1 +1,1 @@
-const merge = (a, b) => [...a, ...b];
+const minNumber = arr => Math.min(...arr);
