@@ -1,2 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+[foo, bar] = [bar, foo];
+function myAPITS(someString: string, someNum: number) { ... };
