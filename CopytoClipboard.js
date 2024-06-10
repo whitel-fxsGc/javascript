@@ -1,3 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-[foo, bar] = [bar, foo];
-function myAPITS(someString: string, someNum: number) { ... };
+var c = new Counter(); c.add(); c.add(); c.add();
+const merge = [...new Set(a.concat(b))];
+const getRandomBoolean = () => Math.random() >= 0.5;
