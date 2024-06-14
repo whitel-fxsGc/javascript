@@ -1,2 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const goToTop = () => window.scrollTo(0, 0);
+var arr1 = "john".split('');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
