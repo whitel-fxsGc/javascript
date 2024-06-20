@@ -1,3 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const randomString = () => Math.random().toString(36).slice(2);
-var DELIM_SIZE = 4;
+const uniqueArr = (arr) => [...new Set(arr)];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
