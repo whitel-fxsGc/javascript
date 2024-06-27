@@ -1,2 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
