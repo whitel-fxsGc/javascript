@@ -1,2 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log("0 && 1 = "+(0 && 1));
+const randomBoolean = () => Math.random() >= 0.5;
