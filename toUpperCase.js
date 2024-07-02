@@ -1,2 +1,3 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-var c = new Counter(); c.add(); c.add(); c.add();
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+console.log("0 || 1 = "+(0 || 1));
+[foo, bar] = [bar, foo];
