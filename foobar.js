@@ -1,3 +1,3 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-console.log( "A" - "B" + "2");
-const arrayContains = (arr, element) => arr.includes(element);
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const result = await makeHttpRequest(url);
