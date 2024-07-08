@@ -1,1 +1,1 @@
-const isTabInView = () => !document.hidden;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
