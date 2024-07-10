@@ -1,3 +1,3 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const randomBoolean = () => Math.random() >= 0.5;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+[foo, bar] = [bar, foo];
