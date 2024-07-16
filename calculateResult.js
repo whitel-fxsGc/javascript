@@ -1,2 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const lastElement = arr => arr[arr.length - 1];
+console.log(+"1" +  "1" + "2");
+console.log( "A" - "B" + 2);
