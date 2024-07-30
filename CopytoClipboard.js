@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const channelName = getChannelName(channel);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+[foo, bar] = [bar, foo];
