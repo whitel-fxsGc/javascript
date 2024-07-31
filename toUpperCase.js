@@ -1,3 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const minNumber = arr => Math.min(...arr);
-const results = await Promise.all(resultingPromises);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log( "A" - "B" + "2");
