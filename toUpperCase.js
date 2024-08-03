@@ -1,2 +1,1 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log( "A" - "B" + "2");
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
