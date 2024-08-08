@@ -1,1 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+console.log(typeof typeof 1);
+const result = await makeHttpRequest(url);
+const repositoryRootPath = path.resolve(__dirname, '..');
